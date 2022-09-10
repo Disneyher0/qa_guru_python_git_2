@@ -1,16 +1,3 @@
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
-
-# AWS User-specific
-.idea/**/aws.xml
-
-# Generated files
-.idea/**/contentModel.xml
-
-# Sensitive or high-churn files
 .idea/**/dataSources/
 .idea/**/dataSources.ids
 .idea/**/dataSources.local.xml
@@ -18,12 +5,10 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
-.idea/**/gitignore
-.idea/**/misc.xml
-
+.idea/
 # Gradle
 .idea/**/gradle.xml
-.idea/**/libraries
+.idea/
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -33,9 +18,9 @@
 # .idea/compiler.xml
 # .idea/jarRepositories.xml
 # .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-# *.iml
+#.idea/*.iml
+#.idea/modules
+*.iml
 # *.ipr
 
 # CMake
@@ -262,10 +247,3 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
