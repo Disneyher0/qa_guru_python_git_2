@@ -10,5 +10,5 @@ def test_2():
 
 
 def test_another():
-    10 > 15
+    10 > 16
 
